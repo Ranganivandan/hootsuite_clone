@@ -1,0 +1,299 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif   ;
+}
+#navbar{
+display: flex;
+
+width: 100%;
+list-style: none;
+justify-content: space-between;
+height: 15%;
+}
+#content-1{
+
+margin-top: 120px;
+margin-left: 70px;
+justify-content: center;
+width: 40%;
+height: 90%;
+
+}
+#logoleft{
+    width: 30%;
+   
+}
+#links{
+    width: 30%;
+    padding: 20px;
+}
+#middle{
+    display: flex;
+    padding: 30px;
+}
+
+.content{
+    display: flex;
+}
+#leftimg{
+   margin-left: 30px;
+    width: 40%;
+    height: 90%;
+    margin-top: -10px;
+}
+
+#logo{
+width: 50%;
+height: 100%;
+cursor: pointer;
+}
+.ri-account-circle-line{
+    font-size: 40px;
+    cursor: pointer;
+padding:3px ;
+    float: right;
+    margin-right: 5px;
+}
+
+#menu{
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+#starttrail{
+   padding: 10px;
+    font-size: 20px;
+    height: 80%px;  
+    width: 70%;
+    color: antiquewhite;
+    background-color: rgb(12, 52, 52);
+    cursor: pointer;
+    margin-left: 10px;
+}
+#starttrail:hover{
+background-color: RGB(0, 73, 98);
+
+}
+
+#anchortrial{
+    margin-left: 20px;
+    width: 100%;
+    font-size: 20px;
+    
+    color: rgb(12, 52, 52);
+}
+#anchortrial:hover{
+    transition: all 3s ease-in-out;
+   color:  rgb(0, 73, 98);
+
+  
+}
+
+#menu:hover
+{
+    text-decoration: underline;
+   color: RGB(224, 48, 53);
+}
+#demo:hover{
+    background-color: RGB(0, 73, 98);
+    transition-duration:0.5s;
+    transform: scale(1.1);
+}
+
+#demo{
+    margin-top: 20px;
+    padding: 10px;
+    width: 30%;
+    height: 50px;
+    font-size: 20px;   
+    color:  antiquewhite;
+    background-color: rgb(12, 52, 52);
+    border-radius: 20px;
+    cursor: pointer; 
+    
+}
+html,body{
+    
+        width: 100%;
+        height: 100%;
+}
+#left{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(26, 105, 105);
+    padding: 20px;
+}
+#right{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(31, 81, 81);
+
+}
+
+
+#upimg{
+    padding: 25px;
+   text-align: center;
+    font-size: 60px;
+
+
+}
+
+#sidecont{
+text-align:center ;
+justify-content: center;
+color: aliceblue;
+
+
+}
+.mainup{
+    width: 100%;
+    height: 100%;
+   
+}
+.maindown{
+    width: 100%;
+    height: 15%;
+   display: flex;
+   flex-direction: row;
+}
+
+#con1{
+width:33%;
+height:100px;
+text-align: center;
+}
+#con2{
+    width:33%;
+    height:100px; 
+    text-align: center;
+}
+#con3{
+    width:33%;
+height:100px;
+text-align: center;
+}
+#lowerdown{
+    display: flex;
+    margin-top: 20px ;
+}
+
+.lower2{
+    padding: 30px;
+    font-size: 22px;
+}
+.lower3{
+width: 100%;
+height: 70%;
+display: flex;
+}
+#right3{
+    width: 50%;
+    height: 150%;
+    margin-right: 50px;
+}
+
+#left3{
+    width: 50%;
+    height: 100%;
+    margin-left: 10px;
+}
+#lef{
+    margin-top: 80px;
+    margin-left: 60px;
+font-size: 20px;
+color:
+RGB(0, 121, 120)
+}
+#menu1::after{
+    content: '';
+    width: 700px;
+    height: 1px;
+    background-color: rgb(99, 107, 107);
+  position: absolute;
+  }
+  #menu1::before{
+    content: '';
+    width: 700px;
+    height: 1px;
+    background-color:  rgb(99, 107, 107);
+  position: absolute;
+  }
+  #menu2::after{
+    content: '';
+    width: 700px;
+    height: 1px;
+    background-color:  rgb(99, 107, 107);
+  position: absolute;
+  }
+  #menu3::after{
+    content: '';
+    width: 700px;
+    height: 1px;
+    background-color: rgb(99, 107, 107);
+  position: absolute;
+  }
+  #menu4::after{
+    content: '';
+    width: 700px;
+    height: 1px;
+    background-color:  rgb(99, 107, 107);
+  position: absolute;
+  }
+  #menu5::after{
+    content: '';
+    width: 700px;
+    height: 1px;
+    background-color: rgb(99, 107, 107);
+  position: absolute;
+  }
+
+  #menu5:hover{
+   color: RGB(224, 48, 53);
+   transition: all 0.5s ease-in-out;
+  }
+
+  #menu4:hover{
+    color: RGB(224, 48, 53);
+    transition: all 0.5s ease-in-out;
+   }
+   #menu3:hover{
+    color: RGB(224, 48, 53);
+    transition: all 0.5s ease-in-out;
+   }
+   #menu2:hover{
+    color: RGB(224, 48, 53);
+    transition: all 0.5s ease-in-out;
+   }
+   #menu1:hover{
+    color: RGB(224, 48, 53);
+    transition: all 0.5s ease-in-out;
+   }
+#features{
+    margin-top: 100px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    color:  rgb(12, 52, 52);
+    border: 1px solid black;
+    background-color: white;
+}
+#features:hover{
+    color: rgb(12, 52, 52);
+   transform: scale(1.1);
+    background-color: rgb(235, 228, 228);
+}
+
+.sponcers{
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+
+
