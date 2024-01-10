@@ -86,9 +86,10 @@ background-color: RGB(0, 73, 98);
     color: rgb(12, 52, 52);
 }
 #anchortrial:hover{
-    transition: all 3s ease-in-out;
-   color:  rgb(0, 73, 98);
 
+   color:  rgb(15, 118, 152);
+   
+   transition: 0.1s all ease-in-out;
   
 }
 
@@ -202,7 +203,7 @@ display: flex;
     margin-left: 10px;
 }
 #lef{
-    margin-top: 80px;
+    margin-top: 30px;
     margin-left: 60px;
 font-size: 20px;
 color:
@@ -211,42 +212,50 @@ RGB(0, 121, 120)
 #menu1::after{
     content: '';
     width: 700px;
-    height: 1px;
+    height: 0.09px;
     background-color: rgb(99, 107, 107);
   position: absolute;
   }
   #menu1::before{
     content: '';
     width: 700px;
-    height: 1px;
+    height: 0.09px;
     background-color:  rgb(99, 107, 107);
   position: absolute;
+
   }
+
+
+
   #menu2::after{
     content: '';
     width: 700px;
-    height: 1px;
+    height: 0.09px;
     background-color:  rgb(99, 107, 107);
   position: absolute;
   }
+
+
+
+
   #menu3::after{
     content: '';
     width: 700px;
-    height: 1px;
+    height: 0.09px;
     background-color: rgb(99, 107, 107);
   position: absolute;
   }
   #menu4::after{
     content: '';
     width: 700px;
-    height: 1px;
+    height: 0.09px;
     background-color:  rgb(99, 107, 107);
   position: absolute;
   }
   #menu5::after{
     content: '';
     width: 700px;
-    height: 1px;
+    height: 0.09px;
     background-color: rgb(99, 107, 107);
   position: absolute;
   }
@@ -294,6 +303,199 @@ RGB(0, 121, 120)
     margin-top: 30px;
     justify-content: center;
 }
+.lower5{
+
+width: 100%;
+height: 80%;
+background-color: #004963;
+display: flex;
+}
+
+#left5{
+    width: 50%;
+justify-content: center;
+margin-top: 80px;
+padding:90px;
+
+}
+
+#right5{
+    width: 50%;
+    
+}
+.lower6{
+    display: flex;
+    width: 100%;
+    height: 70%;
+}
+
+
+
+#left6{
+    width: 50%;
+    height: 70%;
+}
+#right6{
+    margin-top: 50px;
+justify-content: center;
+    width: 50%;
+    height: 70%;
+    
+}
+
+
+.lower7{
+    width: 100%;
+    height: 80%;
+    background-color:rgb(3, 129, 129);
+    display: flex;
+  
+}
+#left7{
+    
+    width: 50%;
+    height: 100%;
+        
+    
+
+}
+#right7{
+    width: 50%;
+    height: 100%;
+    
+}
+#middle7{
+    position: absolute;    width: 50%;
+    height:100%;
+    margin-top: 50px;
+padding: 70px;
+
+    
+}
+.lower9{
+    width: 100%;
+    height: 80%;
+display: flex;
+margin-top: 60px;
+}
+#photo1{
+    width: 12.5%;
+    height: 100%;
+    margin: 2px;
+}
+
+#photo2{
+    width: 12.5%;
+    height: 100%;
+    margin: 2px;
+}
+
+#feedback1{
+    width: 25%;
+    height: 70%;
+    background-color: #004963;
+    margin: 2px;
+   
+}
+#feedback2{
+    width: 25%;
+    height: 70%;
+    background-color: #042b39;
+    margin: 2px;
+}
+#feedback3{
+    width: 25%;
+    height: 70%;
+    background-color: #004963;
+    margin: 2px;
+}
+
+#star{
+    font-size: 22px;
+    color: aqua;
+    padding: 5px;
+    margin: 2px;
+}
+#anchorr:hover{
+    text-decoration: underline;
+    color: aqua;
+}
+
+.lower10{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    background-color: #004963;
+    margin-top: 20px;
+}
+#left10{
+width: 50%;
+height: 100%;
+}
+
+#right10{
+    width: 50%;
+    height: 50%;
+
+    }
+footer{
+    display: flex;
+    width: 100%;
+    height: 60%;
+    background-color:
+    #e9f0f3
+}
+#foot1{
+    width: 12.5%;
+    height: 100%; 
+    display: flex; justify-content: center;
+}
+#foot2{
+    width: 12.5%;
+    height: 100%;
+    margin-top: 30px; 
+}
+#foot3{
+    width: 12.5%;
+    height: 100%; 
+    margin-top: 30px; 
+}
+#foot4{
+    width: 12.5%;
+    height: 100%; 
+    margin-top: 30px; 
+}
+#foot5{
+    width: 12.5%;
+    height: 100%;
+    margin-top: 30px;  
+}
+#foot6{
+    width: 12.5%;
+    height: 100%; 
+    margin-top: 30px; 
+}
+#foot7{
+    width: 12.5%;
+    height: 100%;
+    margin-top: 30px;  
+}
+#foot8{
+    width: 12.5%;
+    height: 100%; 
+    margin-top: 30px; 
+}
+#list>li{
+padding-top: 15px;
+color: #042b39;
+}
+
+
+
+#list>li:hover{
+    transform: scale(1.05);
+    color: rgb(0, 120, 121);
+    }
 
 
 
