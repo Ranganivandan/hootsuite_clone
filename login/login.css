@@ -1,0 +1,80 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif   ;
+}
+
+
+.container{
+    width: 100%;
+    height: 90%;
+display: flex;
+overflow: hidden;
+
+}
+#left{
+    width: 50%;
+    height: 110%;
+display: flex;
+background-color:
+RGB(1, 53, 72);
+
+}
+#right{
+    width: 50%;
+    height: 100%;
+    
+}
+#video{
+    margin-top: 180px;
+margin-left: 40px;
+
+}
+
+
+#logo{
+width: 15%;
+height: 15%;
+border-radius: 0px;
+overflow: hidden;
+margin: 20px;
+margin-left: 100px;
+
+}
+#head{
+    color: white;
+}
+
+#box{
+    width: 80%;
+    height: 30%;
+    background-color:
+RGB(172, 196, 215);
+color:
+RGB(20, 48, 89);
+margin: 60px;
+margin-left: 80px;
+padding: 10px;
+}
+
+#email{
+    width: 500px;
+    height: 45px;
+    font-size: 20px;
+    margin: 10px;
+}
+
+#pass{
+    width: 500px;
+    height: 45px;
+    font-size: 20px;
+    margin: 10px;
+}
+
+#form{
+    display: flex;
+    justify-content: center;
+    
+}
